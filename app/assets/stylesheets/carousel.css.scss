@@ -1,0 +1,54 @@
+// Place all the styles related to the Carousel controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$mainfont: 'Stardos Stencil', cursive;
+$main-color: white;/*rgba(255,255,255,1);*/
+
+.item{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*padding-top: 20vh;*/
+  min-height: 70vh;
+  }
+
+.item1 {
+   background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105758_free.jpg);
+}
+
+.item2 {
+	background-image: image-url('MMYS-Baseball.jpg');
+	background-align: center center;
+/* Stock Photo
+  background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105746_free.jpg);*/
+}
+
+.item3 {
+  background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105736_free.jpg);
+}
+
+.item4 {
+  background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105734_free.jpg);
+}
+
+.sidebar {
+    padding-top: -50px;
+    position: relative;
+    width: 40vw;
+    background-color: rgba(0,0,0,0.35);
+    min-height: 70vh;
+  img {
+    min-height: 35vh;
+    
+  }
+  }
+
+
+.blurb {
+    text-align: center;
+    color: $main-color !important;
+    font-family: $mainfont;
+    text-shadow: 2px 2px black;
+    }

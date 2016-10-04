@@ -1,0 +1,30 @@
+.navbar  {
+  background-color: rgba(255,255,255,0.95);
+  font-family: 'Allerta Stencil', sans-serif;
+  border-bottom: solid rgba(200,0,0,1);
+  border-top: solid rgba(200,0,0,1);
+}
+
+.nav-item {
+  color: rgba(0,0,200,1);
+  text-align: right;
+}
+.nav-item:hover {
+  background-color: rgba(200,0,0,1);
+  color: rgba(255,255,255,1)
+}
+
+.nav-item a {
+  color: rgba(0,0,200,1);
+}
+.nav-item a:hover {
+  background-color: rgba(200,0,0,1) !important;
+  color: rgba(255,255,255,1);
+}
+
+button {
+  background-color: rgba(200,0,0,1) !important;
+}
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: rgba(255,255,255,1);
+}
