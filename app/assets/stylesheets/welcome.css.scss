@@ -2,10 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 body {
 overflow-x: hidden;
 }
 
+.divider {
+  height: 10vh;
+  background-color: rgba(0,0,100,1);  
+}
+
+.subhead {
+  text-align: center;
+}
 
 /*Navbar Section 
 

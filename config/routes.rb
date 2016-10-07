@@ -2,6 +2,8 @@ MMYS::Application.routes.draw do
 
   root 'welcome#index'
   get '/about' => 'about#index'
+  get '/calendar' => 'calendar#index'
+  get '/sponsors' => 'sponsors#index'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
