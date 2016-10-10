@@ -12,6 +12,12 @@ $main-color: white;/*rgba(255,255,255,1);*/
   background-size: cover;
   /*padding-top: 20vh;*/
   min-height: 70vh;
+    .sidebar svg {
+      padding-top: 10vh;
+      padding-bottom: 20vh;
+      color: $main-color;
+      width: 100%;
+    }
   }
 
 .item1 {
@@ -39,12 +45,7 @@ $main-color: white;/*rgba(255,255,255,1);*/
     width: 40vw;
     background-color: rgba(0,0,0,0.35);
     min-height: 70vh;
-  img {
-    min-height: 35vh;
-    
-  }
-  }
-
+}
 
 .blurb {
     text-align: center;
