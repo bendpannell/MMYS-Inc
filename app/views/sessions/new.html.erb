@@ -1,0 +1,16 @@
+<!-- Sessions Controller, Index Action -->
+
+
+<div class='container-float'>
+	<div class='field'>
+
+		<h2> Log in </h2>
+
+		<%= form_for(:session, url: login_path) do |f| %>
+		
+			<%= f.email_field :email, :placeholder => "Email" %>
+			<%= f.password_field :password, :placeholder => "Password" %>
+			<%= f.submit "Log in", class: "btn-submit" %>		
+		<% end %>
+	</div>
+</div>

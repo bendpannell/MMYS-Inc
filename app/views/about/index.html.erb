@@ -4,8 +4,9 @@
 	<div class="col-xs-12 col-md-4 pull-left sponsors">
 		<a href="/sponsors">
 		<!-- Add Sponsors Here -->
-			<% (1..6).each do |i| %>
-				<p> Sponsor <%=i%></p>
+			<% @sponsors.each do |s| %>
+				<h3><%= s.name %></h3>
+				<%= image_tag s.image %>
 			<% end %>
 		</a>
 	</div>

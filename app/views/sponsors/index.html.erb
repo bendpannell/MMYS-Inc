@@ -1,9 +1,13 @@
 <!-- Sponsors Controller, Index Action -->
 
-<div class='container-fluid asdf'>
-	<% (1..6).each do |i| %>
-		<a href="#">
-			<p> Sponsor <%=i%> </p>
-		</a>
+
+<div class='container-float'>
+	<% @sponsors.each do |s| %>
+		<div class='asdf'>
+			<a target="_blank" href='<%= s.website %>'>
+				<h1> <%= s.name %> </h1>
+				<%= image_tag s.image %>
+			</a>
+		</div>
 	<% end %>
 </div>
