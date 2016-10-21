@@ -28,27 +28,35 @@ $main-color: white;/*rgba(255,255,255,1);*/
 
 .item1 {
   background-image: url('MMYS-Football_2.jpg');
-  background-align: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;	
 /* Stock Photo
    background-image: url('http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105758_free.jpg');*/
 }
 
 .item2 {
 	background-image: image-url('MMYS-Baseball.jpg');
-	background-align: center center;
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 /* Stock Photo
   background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105746_free.jpg);*/
 }
 
 .item3 {
   background-image: url('MMYS-Basketball.jpg');
-  background-align: center center;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   /*background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105736_free.jpg);*/
 }
 
 .item4 {
   background-image: url('MMYS-Football.jpg');
-  background-align: center center;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   /*background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105734_free.jpg);*/
 }
 
