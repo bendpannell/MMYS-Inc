@@ -5,6 +5,11 @@
 $mainfont: 'Stardos Stencil', cursive;
 $main-color: white;/*rgba(255,255,255,1);*/
 
+
+.glyphicon {
+  padding-top: 300px;
+}
+
 .item{
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -12,16 +17,20 @@ $main-color: white;/*rgba(255,255,255,1);*/
   background-size: cover;
   /*padding-top: 20vh;*/
   min-height: 70vh;
-    .sidebar svg {
-      padding-top: 10vh;
-      padding-bottom: 20vh;
-      color: $main-color;
+    .sidebar .balls {
+      padding-top: 5vh;
+      padding-bottom: -25vh;
+      fill: rgba(255,255,255,0.5);
+      /*viewBox: 0 0 32 32;*/
       width: 100%;
     }
   }
 
 .item1 {
-   background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105758_free.jpg);
+  background-image: url('MMYS-Football_2.jpg');
+  background-align: center center;
+/* Stock Photo
+   background-image: url('http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105758_free.jpg');*/
 }
 
 .item2 {
@@ -32,11 +41,15 @@ $main-color: white;/*rgba(255,255,255,1);*/
 }
 
 .item3 {
-  background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105736_free.jpg);
+  background-image: url('MMYS-Basketball.jpg');
+  background-align: center center;
+  /*background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105736_free.jpg);*/
 }
 
 .item4 {
-  background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105734_free.jpg);
+  background-image: url('MMYS-Football.jpg');
+  background-align: center center;
+  /*background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105734_free.jpg);*/
 }
 
 .sidebar {
@@ -45,11 +58,25 @@ $main-color: white;/*rgba(255,255,255,1);*/
     width: 40vw;
     background-color: rgba(0,0,0,0.35);
     min-height: 70vh;
+    max-height: 70vh;
+}
+
+.ball{
+  text-align: center;
+  min-height: 33vh;
+  max-height: 33vh;
 }
 
 .blurb {
     text-align: center;
     color: $main-color !important;
     font-family: $mainfont;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 2px black;
     }
+
+/*.icon-baseball {
+  width: 100%;
+  padding-bottom: 92%;
+  height: 1px;
+  overflow: visible;
+}*/
