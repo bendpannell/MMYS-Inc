@@ -35,8 +35,26 @@ $main-color: white;/*rgba(255,255,255,1);*/
    background-image: url('http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105758_free.jpg');*/
 }
 
+.title {
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  .line {
+    width: 50vw;
+  }
+  @media (max-width: 550px){
+    .logo {
+      font-size: 50px;
+    }
+      }
+  @media (min-width: 550px){
+  .logo {
+    font-size: 100px;
+  }
+  }
+}
+
 .item2 {
-	background-image: image-url('MMYS-Baseball.jpg');
+	background-image: image-url('MMYS_Team.jpg');
 	 background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

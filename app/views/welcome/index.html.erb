@@ -1,16 +1,20 @@
 <!-- Welcome Controller, Index Action -->
 
-<%= render file: '/home/benpannell/workspace/MMYS/app/views/layouts/carousel.html.erb' %>
+<%= render file: '/layouts/carousel.html.erb' %>
 
 	<div class="divider">
 	</div>
 	<div class="container-fluid">
-	<div class = "row">
-		<div class = "col-md-6 col-xs-12 pull-right subhead">
-			<%= render file: '/layouts/facebook' %>
+		<div class = "row">
+			<div class = "col-md-6 col-xs-12 pull-right subhead">
+				<%= render file: '/layouts/facebook' %>
+			</div>
+			<div class = "col-md-6 col-xs-12 pull-left subhead">
+				<%= render file: '/app/views/calendar/index.html.erb' %>
+			</div>	
 		</div>
-		<div class = "col-md-6 col-xs-12 pull-left subhead">
-			<%= render file: '/app/views/calendar/index.html.erb' %>
-		</div>	
+		
 	</div>
-</div>
+
+
+	

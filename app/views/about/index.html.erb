@@ -6,7 +6,9 @@
 		<!-- Add Sponsors Here -->
 			<% @sponsors.each do |s| %>
 				<h3><%= s.name %></h3>
+				<% s.count %>
 				<%= image_tag s.image %>
+				<hr style="width: 50%">
 			<% end %>
 		</a>
 	</div>
