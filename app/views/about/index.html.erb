@@ -1,21 +1,22 @@
 <!-- About Page, index -->
 
 <div class='row page'>
+	<div class="col-xs-12 col-md-8 pull-right missionStatement">
+		<h3 class="blurb main">At Mitch Murphy Youth Sports Incorporated, we strive for greatness</h3>
+		<h3 class="blurb2 content"> It is our <span class="blurb">MISSION</span> to provide opportunities for young athletes to compete at the highest levels. We provide players with training, equipment, and facilities needed to be successful.
+We focus on teaching our athletes <span class="blurb">RESPECT FOR THE GAME</span> and that working hard yields gratifying results. We believe that players who are put in competitive conditions feed off one another, push each other harder and <span class="blurb">STRIVE FOR EXCELLENCE</span>. As coaches it is our duty to instill discipline, teamwork, sportsmanship, honesty and integrity.
+Character is revealed in times of adversity and youth sports provide that adversity. By giving these young athletes the opportunity to compete in highly competitive situations, we help them <span class="blurb"> DEVELOP CHARACTER</span> which will benefit them not only on courts and fields, but more importantly, in <span class="blurb">LIFE</span>. </h3>
+	</div>
 	<div class="col-xs-12 col-md-4 pull-left sponsors">
+	<h3 class="blurb"> A Quick Thank You to Our Sponsors... </h3>
 		<a href="/sponsors">
 		<!-- Add Sponsors Here -->
 			<% @sponsors.each do |s| %>
-				<h3><%= s.name %></h3>
-				<% s.count %>
-				<%= image_tag s.image %>
+				<h3 class="sponsor-name"><%= s.name %></h3>
+				<%= image_tag s.image, :class => "sponsor-img" %>
 				<hr style="width: 50%">
 			<% end %>
 		</a>
 	</div>
-	<div class="col-xs-12 col-md-8 pull-right missionStatement">
-		<h3>At Mitch Murphy Youth Sports Incorporated, we strive for greatness</h3>
-		<p> It is our mission to provide opportunities for young athletes to compete at the highest levels. We provide players with training, equipment, and facilities needed to be successful.
-We focus on teaching our athletes respect for the game and that working hard yields gratifying results. We believe that players who are put in competitive conditions feed off one another, push each other harder and strive for excellence. As coaches it is our duty to instill discipline, teamwork, sportsmanship, honesty and integrity.
-Character is revealed in times of adversity and youth sports provide that adversity. By giving these young athletes the opportunity to compete in highly competitive situations, we help them develop their character which will benefit them not only on courts and fields, but more importantly, in LIFE. </p>
-	</div>
+	
 </div>

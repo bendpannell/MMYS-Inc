@@ -3,8 +3,89 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.sponsors,
+.sponsors {
+	margin-top: 8vh;
+	text-align: center;
+}
+
+.sponsor-name {
+	color: black !important;
+}
+
 .missionStatement {
 	margin-top: 8vh;
 	text-align: center;
+	background-color: rgba(100,100,100,1);
+	.main {
+	padding-bottom: 25px;
+	padding-top: -10px;
+	}
+	.content {
+	background-color: rgba(0,0,255,0.25) !important;
+	}
+}
+
+
+@media (min-width: 1500px){
+	
+	.sponsor-img{
+	width: 60%;
+	height: auto;
+	}
+
+    .content {
+	margin-right: 10vw;
+	margin-left: 10vw;
+	margin-bottom: 20vh;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	}
+
+	.blurb2 {
+	font-family: 'Allerta Stencil', sans-serif;
+	line-height: 150%;
+	}
+}
+
+
+@media (min-width: 1000px) {
+
+	.sponsor-img {
+	width: 40%;
+	height: auto;
+	}
+	.content {
+	margin-right: 5vw;
+	margin-left: 5vw;
+	margin-bottom: 10vh;
+	padding-right: 2.5vw;
+	padding-left: 2.5vw;
+	}
+	}
+	
+
+
+@media (min-width: 550px) {
+	
+	.sponsor-img {
+	width: 30%;
+	height: auto;
+	}
+	.content {
+	margin-right: 2.5vw;
+	margin-left: 2.5vw;
+	margin-bottom: 5vh;
+	padding-right: 1.25vw;
+	padding-left: 1.25vw;
+	font-size: 125%;
+	}
+}
+
+@media (max-width: 550px) {
+	.content {
+	font-size: 125%;
+	}
+	.sponsors {
+	margin-top: 3vh;
+	}
 }
