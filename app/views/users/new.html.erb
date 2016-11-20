@@ -2,18 +2,26 @@
 
 
 <div class='container-float'>
-	<div class='field'>
+	<div class='row'>
+		<div class='col-xs-4'>
+		</div>
+		<div class='col-xs-2'>
+			<div class='field'>
 
-		<h2> Sign up </h2>
+				<h2> Sign up </h2>
 
-		<%= form_for(@user) do |f| %>
-		
-			<%= f.text_field :first_name, :placeholder => "First name" %>
-			<%= f.text_field :last_name, :placeholder => "Last name" %>
-			<%= f.text_field :email, :placeholder => "Email" %>
-			<%= f.password_field :password, :placeholder => "Password" %>
-			<%= f.submit "Create an Account", class: "btn-submit"%>
-		
-		<% end %>
+				<%= form_for(@user) do |f| %>
+				
+					<%= f.text_field :first_name, :placeholder => "First name"%>
+					<%= f.text_field :last_name, :placeholder => "Last name" %>
+					<%= f.text_field :email, :placeholder => "Email" %>
+					<%= f.password_field :password, :placeholder => "Password" %>
+					<%= f.submit "Create an Account", class: "btn-submit"%>
+				
+				<% end %>
+			</div>
+		</div>
+		<div class='col-xs-4'>
+		</div>
 	</div>
 </div>

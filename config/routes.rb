@@ -4,6 +4,7 @@ MMYS::Application.routes.draw do
   get '/about' => 'about#index'
   get '/calendar' => 'calendar#index'
   get '/sponsors' => 'sponsors#index'
+  get '/contact' => 'contact#index'
 
   get '/signup' => 'users#new'
   resources :users

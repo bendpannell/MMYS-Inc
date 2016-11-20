@@ -36,6 +36,8 @@ gem 'font-awesome-rails'
 # Use ActiveModel has_secure_password
  gem 'bcrypt-ruby', '~> 3.1.2'
 
+
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3', '1.3.11'
@@ -45,7 +47,7 @@ group :development, :test do
 end
 
 group :production do
-# gem 'pg', '0.17.1'
+	#gem 'pg', '0.17.1'
 	gem 'rails_12factor'
 end
 

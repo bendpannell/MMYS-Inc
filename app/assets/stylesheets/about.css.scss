@@ -28,6 +28,11 @@
 
 @media (min-width: 1500px){
 	
+	.missionStatement
+	.main{
+	font-size: 24px;
+	}
+
 	.sponsor-img{
 	width: 60%;
 	height: auto;
@@ -65,7 +70,7 @@
 	
 
 
-@media (min-width: 550px) {
+@media (max-width: 550px) {
 	
 	.sponsor-img {
 	width: 30%;
