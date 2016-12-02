@@ -3,6 +3,34 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.jt1 {
+	background-image: url('baseball_field_2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	min-height: 65vh;
+	.main {
+		padding-bottom: 5vh;
+	}
+	.content {
+		color: rgba(255,255,255,1);
+	}
+}
+
+.sponsors {
+	text-align: center;
+	.sponsor-name {
+		color: black !important;
+	}
+}
+
+
+.donations {
+	text-align: center;
+	mix-height: 7vh;
+}
+
+/*
 .sponsors {
 	margin-top: 8vh;
 	text-align: center;
@@ -25,6 +53,10 @@
 	}
 }
 
+
+.jumbotron {
+	background: rgba(0,0,255,1);
+}
 
 @media (min-width: 1500px){
 	
@@ -93,4 +125,4 @@
 	.sponsors {
 	margin-top: 3vh;
 	}
-}
+}*/

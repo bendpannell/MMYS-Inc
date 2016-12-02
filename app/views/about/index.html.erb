@@ -1,22 +1,44 @@
 <!-- About Page, index -->
-
-<div class='row page'>
-	<div class="col-xs-12 col-md-8 pull-right missionStatement">
-		<h3 class="blurb main">At Mitch Murphy Youth Sports Incorporated, we strive for greatness</h3>
-		<h3 class="blurb2 content"> It is our <span class="blurb">MISSION</span> to provide opportunities for young athletes to compete at the highest levels. We provide players with training, equipment, and facilities needed to be successful.
-We focus on teaching our athletes <span class="blurb">RESPECT FOR THE GAME</span> and that working hard yields gratifying results. We believe that players who are put in competitive conditions feed off one another, push each other harder and <span class="blurb">STRIVE FOR EXCELLENCE</span>. As coaches it is our duty to instill discipline, teamwork, sportsmanship, honesty and integrity.
-Character is revealed in times of adversity and youth sports provide that adversity. By giving these young athletes the opportunity to compete in highly competitive situations, we help them <span class="blurb"> DEVELOP CHARACTER</span> which will benefit them not only on courts and fields, but more importantly, in <span class="blurb">LIFE</span>. </h3>
+<div class='jumbotron jt1'>
+	<div class='container-fluid'>
+		<div class='row page'>
+			<div class='col-sm-2'></div>
+			<div class="col-sm-8 missionStatement">
+				<h1 class="blurb main">At Mitch Murphy Youth Sports Incorporated, we strive for greatness</h1>
+				<h3 class="blurb content"> It is our <span class="blurb">MISSION</span> to provide opportunities for young athletes to compete at the highest levels. We provide players with training, equipment, and facilities needed to be successful.
+We focus on teaching our athletes <span class="blurb emp">RESPECT FOR THE GAME</span> and that working hard yields gratifying results. We believe that players who are put in competitive conditions feed off one another, push each other harder and <span class="blurb emp">STRIVE FOR EXCELLENCE</span>. As coaches it is our duty to instill discipline, teamwork, sportsmanship, honesty and integrity.
+Character is revealed in times of adversity and youth sports provide that adversity. By giving these young athletes the opportunity to compete in highly competitive situations, we help them <span class="blurb emp"> DEVELOP CHARACTER</span> which will benefit them not only on courts and fields, but more importantly, in <span class="blurb emp">LIFE</span>. </h3>
+			</div>
+			<div class='col-sm-2'></div>
+		</div>
 	</div>
-	<div class="col-xs-12 col-md-4 pull-left sponsors">
-	<h3 class="blurb" style="color: rgba(0,0,100,1) !important; text-shadow: none !important"> A Quick Thank You to Our Sponsors... </h3>
-		<a href="/sponsors">
-		<!-- Add Sponsors Here -->
-			<% @sponsors.each do |s| %>
-				<h3 class="sponsor-name"><%= s.name %></h3>
-				<%= image_tag s.image, :class => "sponsor-img" %>
-				<hr style="width: 50%">
-			<% end %>
-		</a>
-	</div>
-	
 </div>
+<div class='container-fluid'>
+	<h3 class="blurb" style="color: rgba(0,0,100,1) !important; text-shadow: none !important"> A Quick Thank You to Our Sponsors... </h3>
+	<div class='row'>
+			
+			<a href="/sponsors">
+			<!-- Add Sponsors Here -->
+				<% @sponsors.each do |s| %>
+					<div class="col-sm-6 sponsors">
+						<h3 class="sponsor-name"><%= s.name %></h3>
+						<%= image_tag s.image, :class => "sponsor-img" %>
+					</div>
+				<% end %>
+			</a>
+		</div>
+
+	</div>
+</div>
+<div class="container-fluid donations">
+	<div class="row">
+		<div class="col-sm-4">
+		</div>
+		<div class="col-sm-4">
+			<h4>PayPal Donations Coming Soon!</h4>
+		</div>
+		<div class="col-">
+		</div>
+	</div>
+</div>
+

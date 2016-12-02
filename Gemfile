@@ -13,7 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
- gem 'therubyracer', platforms: :ruby
+ #gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -41,13 +41,14 @@ gem 'font-awesome-rails'
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3', '1.3.11'
-#gem 'byebug', '3.4.0'
+	gem 'byebug', '3.4.0'
 	gem 'web-console', '2.0.0.beta3'
 	gem 'spring', '1.1.3'
 end
 
 group :production do
-	#gem 'pg', '0.17.1'
+gem 'sqlite3', '1.3.11'
+	gem 'pg', '0.17.1'
 	gem 'rails_12factor'
 end
 
@@ -60,4 +61,4 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-#ruby "1.9.3"
+ruby "2.3.1"
