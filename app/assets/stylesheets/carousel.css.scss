@@ -59,8 +59,7 @@ $main-color: white;/*rgba(255,255,255,1);*/
 	 background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-/* Stock Photo
-  background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105746_free.jpg);*/
+
 }
 
 .item3 {
@@ -68,7 +67,7 @@ $main-color: white;/*rgba(255,255,255,1);*/
    background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  /*background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105736_free.jpg);*/
+  
 }
 
 .item4 {
@@ -76,7 +75,6 @@ $main-color: white;/*rgba(255,255,255,1);*/
    background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  /*background-image: url(http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105734_free.jpg);*/
 }
 
 .sidebar {
@@ -84,8 +82,8 @@ $main-color: white;/*rgba(255,255,255,1);*/
     position: relative;
     width: 40vw;
     background-color: rgba(0,0,0,0.35);
-    min-height: 70vh;
-    max-height: 70vh;
+    min-height: 80vh;
+    max-height: 80vh;
 }
 
 .ball{
@@ -100,6 +98,12 @@ $main-color: white;/*rgba(255,255,255,1);*/
     font-family: $mainfont;
     text-shadow: 2px 2px 2px black;
     }
+
+.blurb2 {
+	text-align: center;
+	color: black !important;
+	font-family: $mainfont;
+}
 
 /*.icon-baseball {
   width: 100%;

@@ -9,6 +9,7 @@
 	background-attachment: fixed;
 	background-position: center;
 	min-height: 65vh;
+	
 }
 
 .logos {
@@ -16,3 +17,23 @@
 	text-align: center;
 }
 
+.sp_name {
+	color: black !important;
+}
+
+.div2 {
+	margin-top: -3.5vh;
+	background-color: rgba(200,0,0,1);
+	min-height: 8vh;
+	max-height: 8vh;
+	.divtext {
+		padding-top: 4vh;
+	}
+}
+
+@media (max-width: 768px) {
+	.spsr-img {
+		width: 30%;
+		height: auto;
+	}
+}

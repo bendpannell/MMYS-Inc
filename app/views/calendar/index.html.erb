@@ -1,15 +1,16 @@
 <!-- Calendar Controller, Index Action -->
 
+<div class='div4'>
+	<h1 class='blurb cal-text'> <a href='/calendar'>Calendar</a></h1>
+</div>
 <!-- Full size Calendar -->
 <div class='responsive-iframe-container big-container gcal'>
-	<h1 class='header blurb'> Calendar </h1>
 	<iframe src="https://calendar.google.com/calendar/embed?src=bbd2828%40gmail.com&ctz=America/New_York" style='border: 0' width='95%' height='650' frameborder="0" scrolling="no"></iframe>
 	
 </div>
 
 <!-- mobile-friendly calendar -->
 <div class='responsive-iframe-container small-container gcal'>
-	<h1 class='header blurb'> Calendar </h1>
 	<iframe src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bbd2828%40gmail.com&amp;color=%2329527A&amp;ctz=America%2FNew_York" style="border-width:0" width="95%" height="600" frameborder="0" scrolling="no"></iframe>
 	
 </div>
@@ -32,20 +33,9 @@
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 50px;
+	text-align: center;
 }
 
-.gcal {
-	text-align: center;
-	background-image: url('football_field.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	/*background-color: rgba(100,100,100,0.5);*/
-	margin-bottom: 10vh;
-}
-.header {
-	margin-top: 8vh;
-	text-align: center;
-	color: black !important;
-}
+
+
 </style>

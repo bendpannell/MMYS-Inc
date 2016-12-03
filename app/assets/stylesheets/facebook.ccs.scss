@@ -2,10 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.fb {
+.fb-text {
+	margin-top: 6vh;
+	width: 100%;
+	background-color: rgba(0,0,100,1);
 	text-align: center;
+	
 }
 
-.fb a{
-	color: black !important;
+.fb-text a{
+	color: white !important;
+}
+
+.fb {
+	margin-top: 3vh;
+	margin-bottom: 6vh;
+
+}
+
+.fb-page {
+	margin-bottom: 3vh;
 }

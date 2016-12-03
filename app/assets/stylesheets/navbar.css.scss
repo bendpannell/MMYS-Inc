@@ -6,9 +6,9 @@
 }
 
 .nav-item {
-	font-family: 'Allerta Stencil', sans-serif;
-  color: rgba(0,0,200,1);
-  text-align: right;
+  	color: rgba(0,0,200,1) !important;
+	text-shadow: none;
+  	text-align: right;
 }
 .nav-item:hover {
   background-color: rgba(200,0,0,1);
@@ -16,7 +16,8 @@
 }
 
 .nav-item a {
-  color: rgba(0,0,200,1);
+  color: rgba(0,0,200,1) !important;
+	text-shadow: none;
 }
 .nav-item a:hover {
   background-color: rgba(200,0,0,1) !important;

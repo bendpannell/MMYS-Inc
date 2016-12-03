@@ -13,14 +13,16 @@ Character is revealed in times of adversity and youth sports provide that advers
 		</div>
 	</div>
 </div>
+<div class='div3'>
+	<h3 class="blurb divtext"> A Quick Thank You to Our Sponsors... </h3>
+</div>
 <div class='container-fluid'>
-	<h3 class="blurb" style="color: rgba(0,0,100,1) !important; text-shadow: none !important"> A Quick Thank You to Our Sponsors... </h3>
 	<div class='row'>
 			
 			<a href="/sponsors">
 			<!-- Add Sponsors Here -->
 				<% @sponsors.each do |s| %>
-					<div class="col-sm-6 sponsors">
+					<div class="col-sm-6 blurb2">
 						<h3 class="sponsor-name"><%= s.name %></h3>
 						<%= image_tag s.image, :class => "sponsor-img" %>
 					</div>
@@ -30,15 +32,5 @@ Character is revealed in times of adversity and youth sports provide that advers
 
 	</div>
 </div>
-<div class="container-fluid donations">
-	<div class="row">
-		<div class="col-sm-4">
-		</div>
-		<div class="col-sm-4">
-			<h4>PayPal Donations Coming Soon!</h4>
-		</div>
-		<div class="col-">
-		</div>
-	</div>
-</div>
+
 

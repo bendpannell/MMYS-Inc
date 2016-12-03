@@ -3,14 +3,34 @@
 <div class="jumbotron jt2">
 	<div class='container-float logos'>
 		<div class='row'>
+			<div class='col-sm-2'></div>
+			<div class='col-sm-8'>
+				<h1 class='blurb'>None of this would be possible without the support of our sponsors:</h1>
+			</div>
+			<div class='col-sm-2'></div>
+		</div>
+		<div class='row'>
 			<% @sponsors.each do |s| %>
 				<div class='col-sm-6'>
 					<a target="_blank" href='<%= s.website %>'>
-						<h1> <%= s.name %> </h1>
-						<%= image_tag s.image %>
+						<h1 class="blurb2 sp_name"> <%= s.name %> </h1>
+						<%= image_tag s.image, :class => 'spsr-img' %>
 					</a>
 				</div>
 			<% end %>
 		</div>
+	</div>
+</div>
+<div class='div2'>
+	<h2 class='blurb divtext' style='center'>Support MMYS Today!</h2>
+</div>
+<div class='container-float'>
+	
+	<div class='row donate'>
+		<div class='col-sm-3'></div>
+		<div class='col-sm-6'>
+			<h3 class='blurb2' style='center'>Paypal Donations Coming Soon!</h3>
+		</div>
+		<div class='col-sm-3'></div>
 	</div>
 </div>

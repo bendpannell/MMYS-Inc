@@ -2,20 +2,36 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.jt3 {
+	background-image: url('playbook.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	opacity: 95;
+	min-height: 65vh;
+	max-height: 65vh;
+}
+
 .contact {
+	background-color: rgba(10,10,10,0.3);
 	padding-top: 8vh;
 	text-align: center;
+	min-height: 60vh;
+	max-height: 60vh;
+	
 
 }
 
 .balls {
 	fill: rgba(0,0,0,0.7);
+	display: inline;
 }
 
 @media (max-width: 2000px){
 	.balls {
 	max-height: 33vh;
 	min-height: 33vh;
+	width: auto;
 	}
 }
 
@@ -23,6 +39,8 @@
 	.balls {
 	max-height: 15vh;
 	min-height: 15vh;
+	width: auto;
 	}
 }
+
 
