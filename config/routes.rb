@@ -1,5 +1,6 @@
 MMYS::Application.routes.draw do
 
+  devise_for :users
   root 'welcome#index'
   get '/about' => 'about#index'
   get '/calendar' => 'calendar#index'
