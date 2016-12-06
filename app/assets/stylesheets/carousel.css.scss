@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 $mainfont: 'Stardos Stencil', cursive;
-$main-color: white;/*rgba(255,255,255,1);*/
+$main-color: white;
 
 @media (min-width: 768px){
 	#myCarousel .carousel-inner .item {
@@ -11,8 +11,22 @@ $main-color: white;/*rgba(255,255,255,1);*/
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		/*padding-top: 20vh;*/
-	}	
+		.title .logo {
+			font-size: 100px;
+		}
+	}
+	
+}
+
+@media (max-width: 768px){
+	#myCarousel .carousel-inner .item {
+	 .sidebar .sidetxt {
+		font-size: 24px;
+		}
+	.title .logo {
+		font-size: 50px;
+		}
+	}
 }
 
 .glyphicon {
@@ -20,14 +34,13 @@ $main-color: white;/*rgba(255,255,255,1);*/
 }
 
 #myCarousel .carousel-inner {
-	/*top: -7px;*/
 	.item {
 		height: 80vh;
 		background-position-x: center;
 		background-position-y: center;
 		background-size: cover;
 		width: 100%;
-		/*padding-top: 8vh;*/
+		
 		&.item1{ background-image: url('MMYS-Football_2.jpg');}
 		&.item2{ background-image: url('MMYS_Team.jpg');}
 		&.item3{ background-image: url('MMYS-Basketball.jpg');}
@@ -35,79 +48,20 @@ $main-color: white;/*rgba(255,255,255,1);*/
 	}
 }
 
-/*
-.item{
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /*padding-top: 20vh;
-  min-height: 80vh;
-  max-height: 80vh;
-    .sidebar .balls {
-      padding-top: 5vh;
-      padding-bottom: -25vh;
-      fill: rgba(255,255,255,0.5);
-      /*viewBox: 0 0 32 32;
-      width: 100%;
-    }
-  }
-
-.item1 {
-  background-image: image-url('MMYS-Football_2.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;	
-
-}
-*/
 .title {
   padding-top: 30vh;
   padding-bottom: 30vh;
   .line {
     width: 50vw;
   }
-  @media (max-width: 550px){
-    .logo {
-      font-size: 50px;
-    }
-      }
-  @media (min-width: 550px){
-  .logo {
-    font-size: 100px;
-  }
-  }
 }
-/*
-.item2 {
-	background-image: image-url('MMYS_Team.jpg');
-	 background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-
-}
-
-.item3 {
-  background-image: url('MMYS-Basketball.jpg');
-   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  
-}
-
-.item4 {
-  background-image: url('MMYS-Football.jpg');
-   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}*/
 
 .sidebar {
     padding-top: -50px;
     width: 40vw;
     background-color: rgba(0,0,0,0.35);
     min-height: 80vh;
-    /*max-height: 80vh;*/
+    
 	.ball {
 		text-align: center;
 		min-height: 33vh;
@@ -119,12 +73,7 @@ $main-color: white;/*rgba(255,255,255,1);*/
 		width: 100%;
 	}
 }
-/*
-.ball{
-  text-align: center;
-  min-height: 33vh;
-  max-height: 33vh;
-}*/
+
 
 .blurb {
     text-align: center;
