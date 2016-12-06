@@ -4,11 +4,37 @@
 
 $mainfont: 'Stardos Stencil', cursive;
 $main-color: white;/*rgba(255,255,255,1);*/
-
-
+/*
+@media (min-width: 768px){
+	#myCarousel .carousel-inner .item {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		padding-top: 20vh;
+	}	
+}
+*/
 .glyphicon {
   padding-top: 300px;
 }
+/*
+#myCarousel .carousel-inner {
+	top: -7px;
+	.item {
+		height: 80vh;
+		background-position-x: center;
+		background-position-y: center;
+		background-size: cover;
+		width: 100%;
+		padding-top: 8vh;
+		&.item1{ background-image: image-url('MMYS-Football_2');}
+		&.item2{ background-image: image-url('MMYS_Team');}
+		&.item3{ background-image: image-url('MMYS-Basketball');}
+		&.item4{ background-image: image-url('MMYS-Football');}
+	}
+}*/
+
 
 .item{
   -webkit-background-size: cover;
@@ -28,12 +54,11 @@ $main-color: white;/*rgba(255,255,255,1);*/
   }
 
 .item1 {
-  background-image: url('MMYS-Football_2.jpg');
+  background-image: image-url('MMYS-Football_2.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;	
-/* Stock Photo
-   background-image: url('http://i.huffpost.com/gadgets/slideshows/407618/slide_407618_5105758_free.jpg');*/
+
 }
 
 .title {
@@ -79,7 +104,6 @@ $main-color: white;/*rgba(255,255,255,1);*/
 
 .sidebar {
     padding-top: -50px;
-    position: relative;
     width: 40vw;
     background-color: rgba(0,0,0,0.35);
     min-height: 80vh;
@@ -105,9 +129,3 @@ $main-color: white;/*rgba(255,255,255,1);*/
 	font-family: $mainfont;
 }
 
-/*.icon-baseball {
-  width: 100%;
-  padding-bottom: 92%;
-  height: 1px;
-  overflow: visible;
-}*/
