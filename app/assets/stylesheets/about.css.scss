@@ -9,9 +9,6 @@
 	background-position-y: center;
 	background-size: cover;
 	width:100%;
-	/*background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;*/
 	min-height: 65vh;
 	.main {
 		padding-bottom: 5vh;
@@ -34,8 +31,11 @@
 
 
 @media (max-width: 550px){
-	.div3 > .divtext{
+	.div3{
+	margin-top: -4vh;
+ 	& .divtext{
 		font-size: 16px !important;
+		}
 	}
 }
 
@@ -43,100 +43,11 @@
 	text-align: center;
 }
 
-
-/*
-.sponsors {
-	margin-top: 8vh;
-	text-align: center;
-}
-
-.sponsor-name {
-	color: black !important;
-}
-
-.missionStatement {
-	margin-top: 8vh;
-	text-align: center;
-	background-color: rgba(100,100,100,1);
-	.main {
-	padding-bottom: 25px;
-	padding-top: -10px;
-	}
-	.content {
-	background-color: rgba(0,0,255,0.25) !important;
-	}
-}
-
-
-.jumbotron {
-	background: rgba(0,0,255,1);
-}
-
-@media (min-width: 1500px){
-	
-	.missionStatement
-	.main{
-	font-size: 24px;
-	}
-
-	.sponsor-img{
-	width: 60%;
-	height: auto;
-	}
-
-    .content {
-	margin-right: 10vw;
-	margin-left: 10vw;
-	margin-bottom: 20vh;
-	padding-right: 5vw;
-	padding-left: 5vw;
-	}
-
-	.blurb2 {
-	font-family: 'Allerta Stencil', sans-serif;
-	line-height: 150%;
-	}
-}
-
-
-@media (min-width: 1000px) {
-
+@media (max-width: 768px) {
 	.sponsor-img {
-	width: 40%;
-	height: auto;
-	}
-	.content {
-	margin-right: 5vw;
-	margin-left: 5vw;
-	margin-bottom: 10vh;
-	padding-right: 2.5vw;
-	padding-left: 2.5vw;
-	}
-	}
-	
-
-
-@media (max-width: 550px) {
-	
-	.sponsor-img {
-	width: 30%;
-	height: auto;
-	}
-	.content {
-	margin-right: 2.5vw;
-	margin-left: 2.5vw;
-	margin-bottom: 5vh;
-	padding-right: 1.25vw;
-	padding-left: 1.25vw;
-	font-size: 125%;
+		width: 30%;
+		height: auto;
 	}
 }
 
-@media (max-width: 550px) {
-	.content {
-	font-size: 125%;
-	}
-	.sponsors {
-	margin-top: 3vh;
-	}
-}*/
+
