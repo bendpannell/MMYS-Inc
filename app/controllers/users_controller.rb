@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+	before_action :authenticate_user!
 
 	def new
 		@user = User.new
@@ -11,7 +12,7 @@ class UsersController < ApplicationController
 			session[:user_id] = @user.id
 			redirect_to '/'
 		else
-			redirect_to '/signup'
+			redirect_to '/users/sign_up'
 		end
 	end
 

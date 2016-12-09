@@ -1,18 +1,18 @@
 MMYS::Application.routes.draw do
 
-  devise_for :users
+  devise_for :users, :controllers => {registrations: 'registrations'}
   root 'welcome#index'
   get '/about' => 'about#index'
   get '/calendar' => 'calendar#index'
   get '/sponsors' => 'sponsors#index'
   get '/contact' => 'contact#index'
 
-  get '/signup' => 'users#new'
-  resources :users
+  # get '/signup' => 'users#new'
+  # resources :users
 
-  get '/login' => 'sessions#new'
-  post 'login' => 'sessions#create'
-  delete 'logout' => 'sessions#destroy'
+  # get '/login' => 'sessions#new'
+  # post 'login' => 'sessions#create'
+  # delete 'logout' => 'sessions#destroy'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -20,7 +20,7 @@ MMYS::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
-  # Example of regular route:
+  # Example of regular route:er
   #   get 'products/:id' => 'catalog#view'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
