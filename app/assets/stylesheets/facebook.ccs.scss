@@ -2,8 +2,45 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@media (max-width: 768px) {
+  .big-fb {
+    display: none;
+  }
+	
+	.fb-text {
+		font-size: 24px !important;
+	}
+	
+
+	
+}
+
+@media (min-width: 768px) {
+  .small-fb {
+    display: none;
+  }
+
+}
+
+@media (min-width: 995px) {
+	.fb-text {
+		display: none;
+	}
+}
+
+
+.responsive-iframe-container {
+	margin-top: 100px;
+	//position: relative;
+	overflow: hidden;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
 .fb-text {
-	margin-top: 6vh;
+	height: 80px;
+	padding-top: 30px;
+	//margin-top: 3.5vh;
 	width: 100%;
 	background-color: rgba(0,0,100,1);
 	text-align: center;
@@ -13,6 +50,8 @@
 .fb-text a{
 	color: white !important;
 }
+
+
 
 .fb {
 	margin-top: 3vh;

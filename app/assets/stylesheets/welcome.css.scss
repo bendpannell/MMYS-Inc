@@ -7,15 +7,47 @@ body {
 overflow-x: hidden;
 }
 
-.div1 {
-  height: 8vh;
-  background-color: rgba(0,0,100,1);  
+@media (max-width: 768px) {
+	.div4 a {
+			font-size: 24px;
+	}
 }
+
+@media (min-width: 995px) {
+	.div4 {
+		display: none;
+	}
+}
+
+@media (max-width: 995px) {
+	.div1 {
+		display: none;
+	}
+}
+
+.div1 {
+	height: 10vh;
+	background-color: rgba(0,0,100,1);  
+	& .cal-text a {
+		color: white !important;
+	}
+}
+
+.div4 {
+	margin-top: 35px;
+	height: 80px;
+	padding-top: 25px;
+	background-color: rgba(0,0,100,1);
+	a {
+		color: white !important;
+	}
+}
+
 
 .subhead {
 	margin-top: -10vh;
-  text-align: center;
-  border-left: rgba(0,0,100,1);
+	text-align: center;
+	border-left: rgba(0,0,100,1);
 }
 
 
