@@ -4,4 +4,8 @@ class SponsorsController < ApplicationController
 		@sponsors = Sponsors.all
 	end
 
+  def add
+    @sponsor = Sponsors.new
+	end
+	
 end
