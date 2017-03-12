@@ -4,11 +4,14 @@ MMYS::Application.routes.draw do
   root 'welcome#index'
   get '/about' => 'about#index'
   get '/calendar' => 'calendar#index'
-  get '/sponsors' => 'sponsors#index'
+  get '/sponsors/' => 'sponsors#index'
   get '/contact' => 'contact#index'
+  get '/sponsors/new' => 'sponsors#new'
   
-  get '/sponsors/add' => 'sponsors#add'
-
+  get '/forum/channels' => 'channels#index'
+  get '/forum/channels/:id' => 'channels#show', as: :channel
+  get '/forum/channels/new' => 'channels#new', as: :new_channel
+  
   # get '/signup' => 'users#new'
   # resources :users
 

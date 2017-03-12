@@ -23,9 +23,9 @@ $main-color: white;
 	 .sidebar .sidetxt {
 		font-size: 23px;
 		}
-	.title .logo {
+	/*.title .logo {
 		font-size: 50px;
-		}
+		}*/
 	}
 }
 
@@ -49,11 +49,25 @@ $main-color: white;
 }
 
 .title {
-  padding-top: 30vh;
+  padding-top: 40vh;
   padding-bottom: 30vh;
-  .line {
-    width: 50vw;
+	.line {
+    	width: 50vw;
   }
+}
+
+.logo {
+	background: url("MMYS_Logo.svg");
+	background-size: 100% 60vh;
+	background-position-x: center;
+	margin-top:-30vh;
+	width: 100%;
+	height: 60vh;
+	
+}
+
+.logo-text {
+	margin-top: -20vh;
 }
 
 .sidebar {

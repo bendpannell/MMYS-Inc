@@ -1,0 +1,11 @@
+<div class="container-fluid forum">
+	<% @channels.each do |f| %>
+		<h1 class="topic blurb"><%=f.topic%></h1>
+		<h4 class="info blurb"> Posts: <%=f.posts%></h4>
+		<%= link_to "See more", channel_path(f), class: "blurb" %>
+		<hr class="blurb">
+	<% end %>
+	<div>
+		<%= link_to 'Add Channel', "/forum/channels/new", class: "blurb" %>
+	</div>
+</div>

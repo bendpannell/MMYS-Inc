@@ -1,0 +1,7 @@
+<div class="container-fluid">
+	<h1><%= @channel.topic %></h1>
+	<% @messages.each do |f| %>
+		<%= f.content %>
+	<% end %>
+	<%= link_to "New Message", "/forum/channels/" + :id + "/messages/new" %>
+</div>
