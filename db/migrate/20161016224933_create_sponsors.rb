@@ -4,7 +4,7 @@ class CreateSponsors < ActiveRecord::Migration
     	t.string :name
     	t.string :image
     	t.string :website
- 
+
 
       t.timestamps
     end
