@@ -9,5 +9,5 @@
 s1 = Sponsors.create(name: 'BC Awards', image: 'BC_Logo.png', website: 'http://www.bcawardsinc.com')
 s2 = Sponsors.create(name: 'IOM', image: 'IOM_Logo.png', website: 'http://www.iomsa.com')
 
-channels = Channels.create(topic: 'Hello World', posts: '0')
+channels = Channel.create(topic: 'Hello World', posts: '0')
 messages = Message.create(content: 'This is the first message')

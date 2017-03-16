@@ -1,4 +1,4 @@
 require 'test_helper'
 
-class ChannelsHelperTest < ActionView::TestCase
+class ChannelHelperTest < ActionView::TestCase
 end
